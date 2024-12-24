@@ -16,4 +16,4 @@ class WPM:
             accuracy = accuracy/self.count*100
             t = t1-t0
             wpm = self.count/t*100
-            print("WPM",wpm,"Accuracy",accuracy,"Timetaken",t)
+            print("WPM",round(wpm),"Accuracy",round(accuracy,2),"Timetaken",round(t,1))
